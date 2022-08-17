@@ -1,6 +1,6 @@
-const Manager = require("./lib/Manager");
-const Engineer = require("./lib/Engineer");
-const Intern = require("./lib/Intern");
+const Manager = require("./Lib/Manager");
+const Engineer = require("./Lib/Engineer");
+const Intern = require("./Lib/Intern");
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
@@ -8,7 +8,7 @@ const fs = require("fs");
 const outputDir = path.resolve(__dirname, "dist");
 const outputPath = path.join(outputDir, "team.html");
 
-const render = require("./lib/htmlRenderer");
+const render = require("./Lib/Html");
 
 // Array to store team info
 const teamProfile = [];
@@ -137,3 +137,4 @@ function addIntern() {
         })
 }
 
+teamProfileBuilder();

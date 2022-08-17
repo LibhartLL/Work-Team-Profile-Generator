@@ -1,10 +1,15 @@
 {
-  "name": "work-team-profile-generator",
+  "name": "app.js",
   "version": "1.0.0",
-  "description": "",
+  "description": "OOP and TDD challenge module 10",
   "main": "app.js",
+  "directories": {
+    "lib": "Lib",
+    "test": "Test"
+  },
   "scripts": {
-    "test": "jest"
+    "start": "node app.js",
+    "test": "jest --verbose test/*"
   },
   "repository": {
     "type": "git",
@@ -18,7 +23,13 @@
   },
   "homepage": "https://github.com/LibhartLL/Work-Team-Profile-Generator#readme",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "inquire": "^0.4.8",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
   }
 }

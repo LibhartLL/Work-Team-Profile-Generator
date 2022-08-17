@@ -1,4 +1,4 @@
-const Engineer = require("../lib/Engineer");
+const Engineer = require("../Lib/Engineer");
 
 //set GitHub account via the parm
 test("Can set GitHUb account via parameter", () => {
