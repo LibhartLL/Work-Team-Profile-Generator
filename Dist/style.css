@@ -1,11 +1,16 @@
 body {
     font-family: 'Assistant', sans-serif;
-    color: dimgray;
+    color: rgb(3, 88, 74);
     background-color: ghostwhite;
+
+}
+
+.team-heading {
+    text-decoration: underline;
 }
 
 .my-heading {
-    background-color: lightblue;
+    background-color: rgb(153, 228, 203);
 }
 
 .my-listgroup {
@@ -13,5 +18,5 @@ body {
 }
 
 a {
-    color: firebrick;
+    color: rgb(37, 75, 159);
 }
