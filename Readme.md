@@ -33,7 +33,7 @@ JavaScript, NodeJS, NPM, HTML and CSS.
 
 * Youtube video of the demonstration of the Work Team Profile Generator:
 
-[![Youtube video of Work Team Profile Generator](https://youtu.be/xsc3DpIN-WQ)](/Images/Tile%20Sheet.jpg)
+[![Youtube video of Readme.md Generator](https://youtu.be/xsc3DpIN-WQ)](https://youtu.be/xsc3DpIN-WQ)
 
 * Play by play screenshots of the command line prompts for the readme questions and the creation of the readme.md:
 
